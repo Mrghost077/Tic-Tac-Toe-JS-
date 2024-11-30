@@ -23,8 +23,9 @@ To get started with the Tic Tac Toe game, follow these steps:
    ```bash
    git clone https://github.com/Mrghost077/Tic-Tac-Toe-JS-.git
 
-2. **Navigate to project directory**
+2. **Navigate to project directory**:
+    ```bash
     cd tic-tac-toe
 
-3. **Open the game in your browser and Enjoy!!**
+3. **Open the game in your browser and Enjoy!!**:
     Simply open the index.html file in your favorite web browser to start playing!
