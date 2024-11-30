@@ -3,7 +3,7 @@ const gameInfo = document.querySelector('#gameInfo');
 const cells = ["","","","","","","","","",];
 let playTurn = "circle";
 
-gameInfo.textContent = 'Circle goes first';
+gameInfo.textContent = 'Circle goes first !';
 
 function board ()
 {
