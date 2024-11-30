@@ -1,9 +1,10 @@
 const gameBoard = document.querySelector("#gameBoard");
 const gameInfo = document.querySelector('#gameInfo');
+const restartInfo = document.querySelector('#restartInfo');
 const cells = ["","","","","","","","","",];
 let playTurn = "circle";
 
-gameInfo.textContent = 'Circle goes first !';
+gameInfo.textContent = 'Game On, Circle goes first !';
 
 function board ()
 {
@@ -21,7 +22,7 @@ board();
 
 function addSymbol (e)
 {
-    console.log("clicked", e.target);
+    restartInfo.textContent = 'Press F5 in keyboard to restart the game';
     const cellSymbol = document.createElement("div");
     cellSymbol.classList.add(playTurn);
     playTurn = playTurn === "circle" ? "cross" : "circle";
